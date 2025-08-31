@@ -1,7 +1,7 @@
 #!/bin/bash
 # watch-git-config.sh
 
-CONFIG_FILE=".git/config"
+CONFIG_FILE="/home/ubuntu/actions-runner/_work/nvrc/nvrc/.git/config"
 
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "Error: $CONFIG_FILE not found in current directory"
